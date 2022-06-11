@@ -5,10 +5,11 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Todo from './components/todo1'
 import LifecycleA from './components/LifecycleA';
+import WafHome from './components/wafhome';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Todo />
+    <WafHome/>
   </React.StrictMode>,
   document.getElementById('root')
 );
